@@ -1,6 +1,11 @@
 body {
     background-color: #DAD6D6;
     font-size: 24px;
+    font-family: open-sans condensed, sans-serif;
+}
+
+h1 {
+    font-family: mukta, sans-serif;
 }
 
 * {
@@ -29,3 +34,18 @@ h1, h2, p {
     color: #5398BE;
 }
 
+.section {
+    margin: 10px;
+    padding: 10px;
+    border: 10px rgb(0, 0, 0);
+    line-height: normal;
+    
+}
+
+.image {
+    box-shadow: 10px 5px 5px rgba(136, 19, 19, 0.144);
+}
+
+.hero {
+    box-shadow: 5px 5px 5px rgba(116, 116, 212, 0.096);
+}
