@@ -1,18 +1,17 @@
 body {
     background-color: #DAD6D6;
     font-size: 24px;
-    font-family: open-sans condensed, sans-serif;
+    font-family: Open+Sans+Condensed, sans-serif;
 }
 
-h1 {
-    font-family: mukta, sans-serif;
+h1, h2 {
+    font-family: Mukta, sans-serif;
 }
 
 * {
     margin: 0;
     padding: 0;
 }
-
 
 header, footer {
     background-color: whitesmoke;
