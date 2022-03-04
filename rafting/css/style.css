@@ -168,9 +168,11 @@ footer {
     text-align: center;
 }
 
-.rsection2 {
-    grid-column: 1/4;
-    grid-row: 3/3;
+.rsection {
+    grid-column: 2/3;
+    grid-row: 2/2;
+    margin: 10px;
+    padding: 10px;
 }
 
 .river {
