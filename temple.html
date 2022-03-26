@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Card</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #8e9eab, #eef2f3);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            letter-spacing: 0.03em;
+        }
+        h1 {
+            text-align: center;
+        }
+
+        h3:hover {
+            color: darkolivegreen;
+        }
+
+        h3 {
+            text-align: center;
+            margin: auto;
+            color: crimson;
+        }
+
+        .card {
+            width: 400px;
+            border-radius: 2rem;
+            position: relative;
+            background-color: darkseagreen;
+        }
+
+        .box {
+            border-radius: 1rem;
+            border: 1px solid rgb(10, 10, 10);
+            position: absolute;
+            bottom: 50px;
+            right: 30px;
+            padding: 5px 2em 5px 2em;
+
+        }
+        .box:hover {
+            color: white;
+            background-color: rosybrown;
+        }
+        .heart {
+            text-align: center;
+            position: absolute;
+            top: 20px;
+            right: 10px;
+            padding: 1em;
+            transition: all .5s ease-in-out;
+        }
+        .heart:hover {
+            transform: scale(1.2);
+
+        }
+        p {
+            font-size: medium;
+            padding: 1em;
+            text-align: justify;
+
+        }
+        .small {
+            font-variant: small-caps;
+        }
+
+        .temple {
+            border-radius: 1rem 1rem 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <img class="temple" src="images/seoul-korea-temple-22305-main.jpeg" width="400" alt="Seoul Korea Tempple">
+        <h1>Seoul South Korea Temple</h1>
+        <p>The Seoul Korea Temple was the first temple built in mainland Asia (and in South Korea).
+            Kim Ho Jik, a high-ranking government and educational figure, was the first native Korean to join the Church
+            on July 29, 1951.
+            <br>
+            <br>
+            The Seoul Korea Temple stands on a hill overlooking the prestigious Ewha Womans University, Yonsei
+            University. 
+        </p>
+        <p class="small">sq ft: 28,057</p>
+        <div class="box">
+            <a href="https://www.churchofjesuschrist.org/temples/details/seoul-korea-temple?lang=eng">
+                <h3>About</h3>
+            </a>
+        </div>
+        <div class="heart">
+            <img src="images/heart.png" width="25" alt="heart button">
+        </div>
+    </div>
+
+</body>
+
+</html>
