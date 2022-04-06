@@ -1,0 +1,29 @@
+.wow {
+    width: 100px;
+  }
+  
+  body {
+    background-color: lavenderblush;
+    color: palevioletred;
+    max-width: 960px;
+    display: grid;
+    
+  }
+  h1{
+    color: lightpink;
+  }
+  h2{
+    color: palevioletred;
+  }
+  h3{
+    color: lightpink;
+  }
+  .FavePeopleDiv{
+    color: palevioletred;
+    font-size: 14px;
+  }
+ 
+  .image {
+    display: grid;
+    grid-template-columns: 300px
+  }
